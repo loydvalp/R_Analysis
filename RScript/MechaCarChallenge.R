@@ -25,6 +25,23 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = MechaCar_table))
 
+# plot the distribution curve
+shapiro.test(MechaCar_table$vehicle_length)
+#W = 0.93421, p-value = 0.008003
+
+# vehicle length vs mpg
+vl_length <- lm(mpg ~ vehicle_length,MechaCar_table)
+vlen <- vl_length$coefficients['vehicle_length']*MechaCar_table$vehicle_length +
+  + vl_length$coefficients['(Intercept)']
+plt <- ggplot(MechaCar_table,aes(x=vehicle_length,y=mpg))
+plt + geom_point()+geom_line(aes(y=vlen),color='red')
+
+# ground clearance vs mpg
+GC <- lm(mpg ~ ground_clearance,MechaCar_table)
+GCy_value <- GC$coefficients['ground_clearance']*MechaCar_table$ground_clearance +
+  + GC$coefficients['(Intercept)']
+plt <- ggplot(MechaCar_table,aes(x=ground_clearance,y=mpg))
+plt + geom_point()+geom_line(aes(y=GCy_value),color='red')
 
 ### Part Two: Suspension Coil Summary
 
