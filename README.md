@@ -70,3 +70,10 @@ mean of x
 
 
 ### Additional Study 
+
+Competition is high when it comes to selling a car.  According to Statista Global Consumer Survey, the top three most important factors for consumers when buying are car are safety, fuel efficiency, and high quality.  There is already data collected on the fuel efficiency.  The safety and high-quality data are needed to be collected.  This is would be a great opportunity to bring the attention to all the safety features that the car has.  Newer model cars have blind spot detection.  United States Department of Transportation has safety ratings for vehicles.  Collecting information from there will be extremely helpful.  The hypothesis is does the safety features reduce risk/accident, and the null hypothesis would be if the safety features do not reduce risk/accident. 
+Also let us not forget about the cost of a vehicle.  Safety and fuel efficiency are especially important.  Can customer afford the car?  Customer are not looking for vehicles that have great safety rating and fuel efficiency without spending a lot of money.  Build a relationship between cost and safety and fuel efficiency.  Does the safety features and fuel efficiency increase the cost of the car or not?
+
+![](RScript/Factors.jpeg)
+
+Source:  https://www.statista.com/chart/13075/most-important-factors-when-buying-a-car/
