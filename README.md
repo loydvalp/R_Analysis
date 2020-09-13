@@ -21,9 +21,9 @@ The goals of this challenge:
 
 ### MPG Regression
 
-1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-2. Is the slope of the linear model considered to be zero? Why or why not?
-3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+#### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+#### Is the slope of the linear model considered to be zero? Why or why not?
+#### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 A multiple linear regression was performed on he MechaCar_mpg.csv dataset.  After a summary of multiple linear regression model in R was generated, Vehicle length and ground clearance provided a non-random of variance to the mpg values.  The slope of the linear model is non-zero.   The slope shows a positive correlation between the two categories and mpg. The Multiple R-squared is 0.7149 and p-value is 5.35e-11 which leads to rejecting the null hypothesis.  The model is an okay linear model predictor of mpg of MechaCar prototypes.   It is not idea.   Roughly 72% of the predictions will be correct.  That is above average.  
 
@@ -33,7 +33,7 @@ A multiple linear regression was performed on he MechaCar_mpg.csv dataset.  Afte
 
 ### Suspension Coil Summary
 
-1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
+#### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
 
 The suspension coil summary tells critical information about each batch. The mean and median are near 1500psi which is likely to be the design specification. The MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. The overall summary shows the MechaCar suspension coils meet design specification variance that does not exceed 100 PSI.   Once the lots were separated, Lot one and Lot two meet this design requirement. Lot three exceeds this requirement by 120 psi. The current manufacturing data does not meet the design specification.
 
@@ -53,7 +53,7 @@ Manufacturing_Lot Min_PSI  Mean_PSI  Median_PSI  Max_PSI Standard_Dev Variance
 
 ### Suspension Coil T-Test
 
-1. Provide a small writeup of your interpretation and findings for the t-test results.
+#### Provide a small writeup of your interpretation and findings for the t-test results.
 
 p-value was determined to equal 0.5117 based on the mean population.  This value is significantly larger than the assumed level of 0.05.  There is no evidence to reject the null hypothesis and the two means are significantly similar. 
 
